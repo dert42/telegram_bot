@@ -25,8 +25,13 @@
    ```bash
    pip install beautifulsoup4 requests telebot
    ```
+3. Настройте файл `config.py`, добавив ваш токен бота:
+   ```python
+   token = 'your_bot_token'
+   ```
 
-3. Запустите бота:
+
+4. Запустите бота:
    ```bash
    python main.py
    ```
